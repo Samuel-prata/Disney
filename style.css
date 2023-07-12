@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #1E1E1E;
+    font-family: "Lily Script One", sans-serif;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+} 
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav{
+    text-align: center;
+}
+
+.imgBanner{
+    width: 100%;
+}
+.box{
+    margin: 30px 60px;
+}
+
+.movies{
+    text-align: center;
+}
+.flyer{
+    margin: 15px;
+}
+.flyer:hover{
+  border-radius: 16%;
+box-shadow: 31px 13px 52px -10px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+footer{
+    background: #1E1E1E;
+    color: white;
+    text-align: center;
+}
+p{
+    display: inline-block;
+    font-size: 20px;
+    padding: 50px 0;
+}
+.footerLinks{
+ display: inline-block;
+ height: 15%;
+}
+.info{
+    height: 40px;
+    padding: 0 10px;
+}
